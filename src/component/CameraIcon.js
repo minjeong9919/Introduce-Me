@@ -27,14 +27,12 @@ export const CameraIcon = () => {
       >
         {size === "big" ? (
           <div className="h-full w-full rounded-full bg-gray-950 flex items-center justify-center">
-            <span className="text-3xl font-black text-white">
+            <span className="text-3xl text-white">
               {isMenuButtonHover && buttonName}
             </span>
           </div>
         ) : (
-          <span className="text-3xl font-black">
-            {isMenuButtonHover && buttonName}
-          </span>
+          <span className="text-3xl">{isMenuButtonHover && buttonName}</span>
         )}
       </button>
     );
