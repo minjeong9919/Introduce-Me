@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./cameraIcon.css";
 
 export const CameraIcon = () => {
   const navigation = useNavigate();
