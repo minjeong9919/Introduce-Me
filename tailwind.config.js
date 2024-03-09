@@ -10,7 +10,6 @@ module.exports = {
       },
       width: {
         w400: "400px",
-        w700: "700px",
         w1360: "1360px",
       },
       borderRadius: {
