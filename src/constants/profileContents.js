@@ -1,4 +1,4 @@
-import me from "../assets/me.png";
+import me from "../assets/images/me.png";
 import { ReactComponent as Education } from "../assets/icon/education.svg";
 
 const educationContents = [

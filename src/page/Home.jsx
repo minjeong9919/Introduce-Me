@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CameraIcon } from "./../component/CameraIcon";
+import { CameraIcon } from "./../component/home/CameraIcon";
 // import Typewriter from "typewriter-effect";
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <div className="w-full h-lvh bg-zinc-400 pt-24">
-      <h1 className="text-8xl ml-l mb-52 Black Han Sans tracking-widest">
+      <h1 className="text-5xl ml-l mb-52 Black Han Sans tracking-widest">
         {text}
       </h1>
       <CameraIcon />
