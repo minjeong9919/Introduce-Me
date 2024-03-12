@@ -6,14 +6,14 @@ module.exports = {
       height: {
         p80: "80px",
         p160: "160px",
-        p500: "500px",
-        p800: "800px",
+        p300: "300px",
+        p600: "600px",
         per90: "90%",
       },
       width: {
-        w400: "400px",
+        w300: "300px",
         w700: "700px",
-        w1360: "1360px",
+        w1100: "1100px",
       },
       borderRadius: {
         "100px": "100px",

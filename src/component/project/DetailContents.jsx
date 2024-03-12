@@ -16,19 +16,19 @@ export const DetailContents = () => {
     다양한 이모티콘과 멋진 배경 이미지들이 모여 만들어지는 이 공간에서, 감성과 재미를 함께 누릴 수 있습니다.
   `;
   return (
-    <p className="p-8">
-      <h2 className="text-3xl mb-5">📆 Period: </h2>
-      <h2 className="text-3xl mb-5">💻 Tech Used: </h2>
-      <h2 className="text-3xl mb-12">🙋‍♀️ Position: </h2>
+    <div className="p-8">
+      <p className="text-lg mb-1">📆 Period: </p>
+      <p className="text-lg mb-1">💻 Tech Used: </p>
+      <p className="text-lg mb-8">🙋‍♀️ Position: </p>
 
       {titles.map((title) => (
-        <>
-          <h1 className="text-5xl mb-5">{title}</h1>
-          <p className="text-3xl mb-5 rounded-xl p-2 borderfont-thin mb-16">
+        <div key={title}>
+          <p className="text-3xl mb-1">{title}</p>
+          <p className="text-xl mb-5 rounded-xl p-2 borderfont-thin mb-8">
             {content}
           </p>
-        </>
+        </div>
       ))}
-    </p>
+    </div>
   );
 };

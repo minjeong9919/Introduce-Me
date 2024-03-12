@@ -19,8 +19,8 @@ const Home = () => {
   });
 
   return (
-    <div className="w-full h-lvh bg-zinc-400 pt-24">
-      <h1 className="text-5xl ml-l mb-52 Black Han Sans tracking-widest">
+    <div className="w-full h-lvh bg-zinc-400 pt-20">
+      <h1 className="text-5xl ml-l mb-20 Black Han Sans tracking-widest">
         {text}
       </h1>
       <CameraIcon />

@@ -6,9 +6,8 @@ export const CameraIcon = () => {
 
   const menuButtons = [
     { id: 1, name: "Profile", route: "profile" },
-    { id: 2, name: "Career", route: "crofile" },
-    { id: 3, name: "Project", route: "project" },
-    { id: 4, name: "Skill", route: "skill" },
+    { id: 2, name: "Project", route: "project" },
+    { id: 3, name: "Skill", route: "skill" },
   ];
 
   const Button = ({ buttonName, route, size = "small" }) => {
@@ -40,9 +39,9 @@ export const CameraIcon = () => {
 
   return (
     <>
-      <div className="relative h-p160 w-w400 rounded-2xl bg-gray-950 ml-xl px-24 py-12">
+      <div className="relative h-p160 w-w300 rounded-2xl bg-gray-950 ml-xl px-16 py-12">
         <div className="relative  h-p80 w-full z-40 rounded-2xl bg-gray-300"></div>
-        <div className="absolute h-p800 w-w1360 rounded-100px bg-gray-950 top-20 left-[-10rem] p-20 flex flex-row">
+        <div className="absolute h-p600 w-w1100 rounded-100px bg-gray-950 top-20 left-[-10rem] p-20 flex flex-row">
           <div className="h-full w-full rounded-3xl bg-gray-300 mr-12"></div>
           <div className="h-full w-3/12 rounded-3xl flex flex-col gap-8">
             {menuButtons.map((button) => (

@@ -21,9 +21,9 @@ export const profileContents = [
     id: 1,
     title: "#ABOUT ME",
     content: (
-      <div className="flex flex-row gap-8 p-4">
-        <img src={me} className="w-52" />
-        <div className="flex flex-col gap-4">
+      <div className="flex flex-row gap-8 p-1">
+        <img src={me} className="w-1/3" />
+        <div className="text-xl flex flex-col gap-1">
           <p>이름: 김민정</p>
           <p>생년월일: 2001.07.30</p>
           <p>주소: 경기도 시흥</p>
@@ -64,11 +64,11 @@ export const profileContents = [
     id: 4,
     title: "#EDUCATION",
     content: educationContents.map((education) => (
-      <div className="flex flex-col gap-8 p-4" key={education.education}>
+      <div className="flex flex-col gap-8 p-2" key={education.education}>
         <div className="flex flex-row items-center gap-8">
           <Education />
           <p>
-            <span className="text-gray-500 text-3xl">{education.period}</span>
+            <span className="text-gray-500 text-xl">{education.period}</span>
             <br />
             {education.education}
           </p>

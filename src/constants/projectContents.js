@@ -1,4 +1,3 @@
-import React from "react";
 import imageAll from "assets/images/project1_results";
 
 export const projectContents = () => {
