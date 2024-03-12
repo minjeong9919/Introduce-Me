@@ -8,6 +8,7 @@ module.exports = {
         p160: "160px",
         p500: "500px",
         p800: "800px",
+        per90: "90%",
       },
       width: {
         w400: "400px",
