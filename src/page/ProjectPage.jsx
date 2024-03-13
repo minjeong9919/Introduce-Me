@@ -11,9 +11,21 @@ export const ProjectPage = () => {
         isModalVisible={isDetailModalVisible}
         setIsModalVisible={setIsDetailModalVisible}
       />
-      <div className="w-full h-lvh bg-zinc-200 overflow-auto px-20">
-        <p className="text-center text-5xl mt-20 mb-12">Projects</p>
+      <div className="w-full h-lvh bg-zinc-200 overflow-auto py-20">
+        <p className="text-center text-5xl mb-12">Project</p>
         <div className="w-4/5 grid grid-cols-3 gap-20 mx-auto">
+          <Project
+            isModalVisible={isDetailModalVisible}
+            setIsModalVisible={setIsDetailModalVisible}
+          />
+          <Project
+            isModalVisible={isDetailModalVisible}
+            setIsModalVisible={setIsDetailModalVisible}
+          />
+          <Project
+            isModalVisible={isDetailModalVisible}
+            setIsModalVisible={setIsDetailModalVisible}
+          />
           <Project
             isModalVisible={isDetailModalVisible}
             setIsModalVisible={setIsDetailModalVisible}
