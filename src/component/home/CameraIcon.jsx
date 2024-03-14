@@ -39,7 +39,7 @@ export const CameraIcon = () => {
 
   return (
     <>
-      <div className="relative h-p160 w-w300 rounded-2xl bg-gray-950 ml-xl px-16 py-12">
+      <div className="relative h-p160 w-w300 rounded-2xl bg-gray-950 ml-xl px-16 py-12 mt-16">
         <div className="relative  h-p80 w-full z-40 rounded-2xl bg-gray-300"></div>
         <div className="absolute h-p600 w-w1100 rounded-100px bg-gray-950 top-20 left-[-10rem] p-20 flex flex-row">
           <div className="h-full w-full rounded-3xl bg-gray-300 mr-12"></div>
