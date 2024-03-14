@@ -5,12 +5,16 @@ import { projectContents } from "./../constants/projectContents";
 
 export const ProjectPage = () => {
   const [isDetailModalVisible, setIsDetailModalVisible] = useState(false);
+  const [clickedProject, setClickedProject] = useState(null);
+  const [clickedProjectContents, setClickedProjectContents] = useState({});
 
   return (
     <>
       <DetailProject
         isModalVisible={isDetailModalVisible}
         setIsModalVisible={setIsDetailModalVisible}
+        clickedProjectId={clickedProject}
+        contents={clickedProjectContents}
       />
       <div className="w-full h-lvh bg-zinc-200 overflow-auto py-20">
         <p className="text-center text-5xl mb-12">Project</p>
@@ -18,9 +22,12 @@ export const ProjectPage = () => {
           {projectContents.map((content) => (
             <Project
               key={content.id}
+              id={content.id}
               contents={content}
               isModalVisible={isDetailModalVisible}
               setIsModalVisible={setIsDetailModalVisible}
+              setClickedProject={setClickedProject}
+              setClickedProjectContents={setClickedProjectContents}
             />
           ))}
         </div>

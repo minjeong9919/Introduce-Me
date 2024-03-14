@@ -5,10 +5,14 @@ export const Project = ({
   contents,
   isModalVisible,
   setIsModalVisible,
+  setClickedProject,
+  setClickedProjectContents,
 }) => {
   const onClickDivHandle = () => {
     setIsModalVisible(!isModalVisible);
-    console.log(contents);
+    setClickedProject(id);
+    setClickedProjectContents(contents);
+    // console.log(contents);
   };
   return (
     <div
@@ -22,7 +26,7 @@ export const Project = ({
         <div className="w-auto h-p300 bg-white rounded-lg mb-10 m-4">
           {/* <img src={imageArr} className="w-full h-full" /> */}
         </div>
-        <div className="text-white text-3xl text-center">프로젝트명</div>
+        <div className="text-white text-2xl text-center">{contents.name}</div>
       </div>
     </div>
   );
