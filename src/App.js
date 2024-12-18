@@ -6,11 +6,12 @@ import "./index.css";
 function App() {
   return (
     <>
+      <div>navbar</div>
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path='/' element={<Home />}>
           {" "}
         </Route>
-        <Route path="/profile" element={<ProfilePage />}>
+        <Route path='/profile' element={<ProfilePage />}>
           {" "}
         </Route>
       </Routes>
